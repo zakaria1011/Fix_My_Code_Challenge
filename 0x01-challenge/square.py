@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ square """
+
+
 class Square():
     """ class square """
     width = 0
@@ -22,6 +24,7 @@ class Square():
     def __str__(self):
         """ diplay square"""
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 """ use of square class  """
